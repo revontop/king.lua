@@ -61,7 +61,7 @@ local window = library:AddWindow("REVY PRIVATY", {
 	background = {Color3.fromRGB(0, 0, 0), Color3.fromRGB(34, 0, 0), Color3.fromRGB(68, 0, 0)}, -- (Background Gradient 1-3 Colors)
 	background_transparency = 0.1, -- Background transparency (0-1 with 1 being fully transparent)
 	main_color = Color3.fromRGB(10, 10, 12), -- Main Color for some Elements like Particles
-	min_size = Vector2.new(670, 600), -- Size of the Window (vertically, horizontally)
+	min_size = Vector2.new(500, 400), -- Size of the Window (vertically, horizontally)
 	can_resize = true -- resizable (PC exclusive)
 })
 
