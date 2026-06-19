@@ -53,8 +53,7 @@ function Utils.greeting()
 	else return "Good Night " .. PlayerData.DisplayName end
 end
 
-
-local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/ghjkl1312/bhkjhk/refs/heads/main/lib.luau", true))()
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/memejames/elerium-v2-ui-library//main/Library", true))()
 
 local window = library:AddWindow("Silence | Main - " .. Utils.greeting(), {
 	title_bar = {Color3.fromRGB(255, 0, 0), Color3.fromRGB(155, 0, 0)},
